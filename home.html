@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="menu.js"></script>
+    <link rel="stylesheet" type=text/css href="header.css"/>
+    <link rel="stylesheet" type=text/css href="body.css"/ />
+    <style media="screen">
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <span class="headerleft">
+        <img src="img/icon_menu_normal.png" height="20" width="20" style="margin-right: 10px"/>
+        <a href="home.html"><img src="img/Logo_big.png" height="20" width="20" style="margin-right: 10px"/></a>
+        <span id="Logotext">Logbeats</a></span>
+      </span>
+      <span class="headerright">
+        <input type="search" placeholder="검색" style="float:left"/>
+        <img src="img/icon_user_normal.png" style="margin-right: 10px"/>
+        <img src="img/icon_alert_normal.png"/>
+    </div>
+
+    <div class="Cbody">
+      <div class="leftmenu" onmouseover="mOver()">
+          <a href="home.html" style="margin-top:100px"><img src="img/home_selected.png"/></a>
+          <a href="data.html"><img src="img/data_disabled.png" onmouseover="this.src='img/data_hover.png';" onmouseout="this.src='img/data_disabled.png';"/></a>
+          <a href="check.html"><img src="img/check_disabled.png" onmouseover="this.src='img/check_hover.png';" onmouseout="this.src='img/check_disabled.png';"/></a>
+          <a href="setting.html"><img src="img/setting_disabled.png" onmouseover="this.src='img/setting_hover.png';" onmouseout="this.src='img/setting_disabled.png';"/></a>
+          <a href="help.html"><img src="img/help_disabled.png" onmouseover="this.src='img/help_hover.png';" onmouseout="this.src='img/help_disabled.png';"/></a>
+      </div>
+      <div id="bodygrid">
+        <div id="titleline">
+          <p id="bodytitle" >
+            로그비츠
+          </p>
+        </div>
+        <div>
+
+        </div>
+
+        <p id="test" onmouseover="mOver()" onmouseout="mOut()">
+          </p>
+      </div>
+  </div>
+
+  <div class="footer">
+footer
+  </div>
+
+  </body>
+</html>
